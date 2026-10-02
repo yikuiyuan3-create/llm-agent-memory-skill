@@ -17,7 +17,7 @@
 
 ## 安装插件
 
-使用支持插件命令的 Codex CLI，并确保当前 Git 环境能访问这个私有仓库。以下命令语法已通过本机 `codex-cli 0.144.3` 帮助核对：
+使用支持插件命令的 Codex CLI 和 Git。此仓库已公开，可匿名读取和下载。以下命令语法已通过本机 `codex-cli 0.144.3` 帮助核对：
 
 ```sh
 codex plugin marketplace add yikuiyuan3-create/llm-agent-memory-skill --ref v0.1.0
