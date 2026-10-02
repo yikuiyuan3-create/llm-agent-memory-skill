@@ -1,0 +1,33 @@
+{
+  "name": "llm-agent-memory",
+  "version": "0.1.0",
+  "description": "从智能体记忆机制综述提炼的中文技能插件，帮助设计、诊断与评估可追溯的记忆流程。",
+  "author": {
+    "name": "yikuiyuan3-create"
+  },
+  "repository": "https://github.com/yikuiyuan3-create/llm-agent-memory-skill",
+  "skills": "./skills/",
+  "keywords": [
+    "agent-memory",
+    "memory-design",
+    "evaluation",
+    "中文"
+  ],
+  "interface": {
+    "displayName": "智能体记忆设计",
+    "shortDescription": "六条核心规则，设计可追溯的记忆流程并验证任务收益",
+    "longDescription": "基于 47 页 LLM Agent 记忆机制综述，指导记忆来源与形式选型、写入管理检索、冲突纠错和效果评估。使用当前 Codex 模型，无额外 API 或外部服务依赖；插件本身不建立记忆数据库、不自动采集个人资料。",
+    "developerName": "yikuiyuan3-create",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "brandColor": "#245C73",
+    "defaultPrompt": [
+      "用 $llm-agent-memory 分析我的智能体为何跨会话遗忘，给出最小改进方案和验证办法。",
+      "用 $llm-agent-memory 检查现有记忆流程中的过期事实、错误累积和检索噪声。"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "llm-agent-memory-marketplace",
+  "interface": {
+    "displayName": "智能体记忆插件"
+  },
+  "plugins": [
+    {
+      "name": "llm-agent-memory",
+      "version": "0.1.0",
+      "description": "智能体记忆设计、诊断与评估的中文 Codex 插件。",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
