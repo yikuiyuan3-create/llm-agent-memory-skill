@@ -1,0 +1,13 @@
+.DS_Store
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+*.pdf
+*.zip
+work/
+paper_extracted.txt
+paper_pages.json
+source_audit.json
+deepseek-distillation.md

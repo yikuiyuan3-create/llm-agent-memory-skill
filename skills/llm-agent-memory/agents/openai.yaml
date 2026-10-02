@@ -1,0 +1,4 @@
+interface:
+  display_name: "智能体记忆设计"
+  short_description: "从论文精华出发，设计可追溯的记忆流程并验证真实任务收益"
+  default_prompt: "用 $llm-agent-memory 分析我的智能体为何跨会话遗忘或重复犯错，给出最小改进方案和验证办法。"
